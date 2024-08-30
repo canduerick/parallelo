@@ -1,0 +1,67 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    
+}
+
+header{
+    background-color: #ffffff;
+    height: 130px;
+    width: 100%;
+    position: relative;
+    border: solid black;
+}
+
+
+
+header #Logo{
+    float: left;
+
+}
+
+*header nav{
+    float: right;
+    background-color: #55c6e8;
+    width: 350px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    margin:15px;
+    color: black;
+    padding: 0;
+    float: right;;
+    
+}
+header nav ul a{
+    margin: 40px;
+   color: black;
+   padding: 0px;
+   display: flex;
+}
+
+section{
+    width: 100%;
+    min-height: 300px;
+    background-color: #cccccc;
+}
+
+label{
+    flex-direction: column;
+}
+
+#Formulario{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 300px;
+    
+
+    
+}
+
+
+
